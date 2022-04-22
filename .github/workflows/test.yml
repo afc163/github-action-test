@@ -19,3 +19,6 @@ jobs:
         
       - name: mkdirp
         run: mkdir -p temp2/1/test
+        
+      - name: script
+        run: node test.js
