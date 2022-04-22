@@ -16,3 +16,6 @@ jobs:
 
       - name: mkdir
         run: mkdir temp && ls -a
+        
+      - name: mkdirp
+        run: mkdir -p temp2/1/test
